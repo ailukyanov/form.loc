@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div>
+                <p>Name</p>
+                <input tabindex="1" placeholder="Name" name="username" type="text">
+            </div>
+            <div>
+                <p>Password</p>
+                <input tabindex="2" name="userpass" type="password">
+            </div>
+            <div>
+                <p>Phone</p>
+                <input tabindex="3" name="userphone" type="tel">
+            </div>
+            <div>
+                <p>Gender</p>
+                <div>
+                    <input tabindex="4" checked type="radio" name="gender" value="male"> Men
+                </div>
+                <div>
+                    <input tabindex="4" type="radio" name="gender" value="female"> Women
+                </div>
+            </div>
+            <div>
+                <p>Property</p>
+                <div>
+                    <input tabindex="5" checked type="checkbox" name="bike" value="yes"> Bike
+                </div>
+                <div>
+                    <input tabindex="6" type="checkbox" name="car" value="yes"> Car
+                </div>
+                <div>
+                    <input tabindex="7" disabled type="checkbox" name="house" value="yes"> House
+                </div>
+            </div>
+            <div>
+                <p>Additional information</p>
+                <textarea tabindex="8" name="text"></textarea>
+            </div>
+            <div>
+                <p>Attach a photo</p>
+                <input tabindex="9" name="userfoto" type="file">
+            </div>
+            <div>
+                <p>Favorite color</p>
+                <select tabindex="10" name="color">
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option selected value="yellow">Yellow</option>
+                </select>
+            </div>
+            <div>
+                <p>Action</p>
+                <button tabindex="11" type="submit">Submit</button>
+                <button tabindex="12" type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
